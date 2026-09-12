@@ -1,0 +1,33 @@
+
+================= API LOG =================
+Time       : 02/09/2026 11:36:36.529 (IST)
+Method     : POST
+URL        : /users/login
+Request    : {
+  "email": "admin@itechs.co.in",
+  "password": "123456"
+}
+Response   : "{\"success\":true,\"user\":{\"user_id\":1,\"name\":\"admin\",\"email\":\"admin@itechs.co.in\",\"password_b\":\"fcea920f7412b5da7be0cf42b8c93759\",\"mobile_no\":\"0000000000\",\"image\":\"1769685509672.jpg\",\"role\":\"super-admin\",\"last_login\":\"2026-08-31T09:41:16.000Z\",\"project_id\":null,\"create_at\":\"2024-12-04T06:53:31.000Z\",\"user_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc4ODMyOTE5NiwiZXhwIjoxNzg4OTMzOTk2fQ.dNuJ4TUMtjYhQ9S9h6Ngffo8b9MHdHPKMCajkKBQ3Zk\",\"is_delete\":0,\"role_id\":1,\"project\":[]}}"
+==========================================
+
+================= API LOG =================
+Time       : 02/09/2026 12:59:01.692 (IST)
+Method     : POST
+URL        : /users/login
+Request    : {
+  "email": "admin@itechs.co.in",
+  "password": "123456"
+}
+Response   : "{\"success\":true,\"user\":{\"user_id\":1,\"name\":\"admin\",\"email\":\"admin@itechs.co.in\",\"password_b\":\"fcea920f7412b5da7be0cf42b8c93759\",\"mobile_no\":\"0000000000\",\"image\":\"1769685509672.jpg\",\"role\":\"super-admin\",\"last_login\":\"2026-09-02T06:06:36.000Z\",\"project_id\":null,\"create_at\":\"2024-12-04T06:53:31.000Z\",\"user_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc4ODMzNDE0MSwiZXhwIjoxNzg4OTM4OTQxfQ.CIXb9oRdMGJMLSIRMk1-kCfhc1yKzLfiyXkjMp5_d38\",\"is_delete\":0,\"role_id\":1,\"project\":[]}}"
+==========================================
+
+================= API LOG =================
+Time       : 02/09/2026 14:43:05.342 (IST)
+Method     : POST
+URL        : /users/login
+Request    : {
+  "email": "admin@itechs.co.in",
+  "password": "123456"
+}
+Response   : "{\"success\":true,\"user\":{\"user_id\":1,\"name\":\"admin\",\"email\":\"admin@itechs.co.in\",\"password_b\":\"fcea920f7412b5da7be0cf42b8c93759\",\"mobile_no\":\"0000000000\",\"image\":\"1769685509672.jpg\",\"role\":\"super-admin\",\"last_login\":\"2026-09-02T07:29:01.000Z\",\"project_id\":null,\"create_at\":\"2024-12-04T06:53:31.000Z\",\"user_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc4ODM0MDM4NSwiZXhwIjoxNzg4OTQ1MTg1fQ.iI3lQlNiEiEKzvba6lhu_VyfeouNSo9Y3OeKutJs2ds\",\"is_delete\":0,\"role_id\":1,\"project\":[]}}"
+==========================================

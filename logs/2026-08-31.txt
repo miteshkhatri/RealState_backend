@@ -1,0 +1,616 @@
+
+================= API LOG =================
+Time       : 31/08/2026 10:39:31.649 (IST)
+Method     : POST
+URL        : /users/login
+Request    : {
+  "email": "admin@itechs.co.in",
+  "password": "123456"
+}
+Response   : "{\"success\":true,\"user\":{\"user_id\":1,\"name\":\"admin\",\"email\":\"admin@itechs.co.in\",\"password_b\":\"fcea920f7412b5da7be0cf42b8c93759\",\"mobile_no\":\"0000000000\",\"image\":\"1769685509672.jpg\",\"role\":\"super-admin\",\"last_login\":\"2026-08-27T13:02:56.000Z\",\"project_id\":null,\"create_at\":\"2024-12-04T06:53:31.000Z\",\"user_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc4ODE1Mjk3MSwiZXhwIjoxNzg4NzU3NzcxfQ.bqQWJZQeWtM_PLT84qEcQEGVsGRUG1YbDSJz_2NvHAM\",\"is_delete\":0,\"role_id\":1,\"project\":[]}}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 11:15:43.137 (IST)
+Method     : POST
+URL        : /users/login
+Request    : {
+  "email": "admin@itechs.co.in",
+  "password": "123456"
+}
+Response   : "{\"success\":true,\"user\":{\"user_id\":1,\"name\":\"admin\",\"email\":\"admin@itechs.co.in\",\"password_b\":\"fcea920f7412b5da7be0cf42b8c93759\",\"mobile_no\":\"0000000000\",\"image\":\"1769685509672.jpg\",\"role\":\"super-admin\",\"last_login\":\"2026-08-31T05:09:31.000Z\",\"project_id\":null,\"create_at\":\"2024-12-04T06:53:31.000Z\",\"user_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc4ODE1NTE0MywiZXhwIjoxNzg4NzU5OTQzfQ.n2URjgmZavnVtKXddkH7Xoa63Jo5E9ueVQCuX9Gjrho\",\"is_delete\":0,\"role_id\":1,\"project\":[]}}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 11:16:22.347 (IST)
+Method     : POST
+URL        : /users/login
+Request    : {
+  "email": "admin@itechs.co.in",
+  "password": "123456"
+}
+Response   : "{\"success\":true,\"user\":{\"user_id\":1,\"name\":\"admin\",\"email\":\"admin@itechs.co.in\",\"password_b\":\"fcea920f7412b5da7be0cf42b8c93759\",\"mobile_no\":\"0000000000\",\"image\":\"1769685509672.jpg\",\"role\":\"super-admin\",\"last_login\":\"2026-08-31T05:45:43.000Z\",\"project_id\":null,\"create_at\":\"2024-12-04T06:53:31.000Z\",\"user_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc4ODE1NTE4MiwiZXhwIjoxNzg4NzU5OTgyfQ.Xmzc-u5sXgrqDMzknbiS4zBPfsUnJJXVAH10qqGYEqE\",\"is_delete\":0,\"role_id\":1,\"project\":[]}}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 12:49:07.453 (IST)
+Method     : POST
+URL        : /users/login
+Request    : {
+  "email": "admin@itechs.co.in",
+  "password": "123456"
+}
+Response   : "{\"success\":true,\"user\":{\"user_id\":1,\"name\":\"admin\",\"email\":\"admin@itechs.co.in\",\"password_b\":\"fcea920f7412b5da7be0cf42b8c93759\",\"mobile_no\":\"0000000000\",\"image\":\"1769685509672.jpg\",\"role\":\"super-admin\",\"last_login\":\"2026-08-31T05:46:22.000Z\",\"project_id\":null,\"create_at\":\"2024-12-04T06:53:31.000Z\",\"user_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc4ODE2MDc0OCwiZXhwIjoxNzg4NzY1NTQ4fQ.eBpJsMKPEUMI-Sei2qy-OBMi3SvDDwOmEVBhdogekpU\",\"is_delete\":0,\"role_id\":1,\"project\":[]}}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 13:58:14.445 (IST)
+Method     : POST
+URL        : /users/login
+Request    : {
+  "email": "admin@itechs.co.in",
+  "password": "123456"
+}
+Response   : "{\"success\":true,\"user\":{\"user_id\":1,\"name\":\"admin\",\"email\":\"admin@itechs.co.in\",\"password_b\":\"fcea920f7412b5da7be0cf42b8c93759\",\"mobile_no\":\"0000000000\",\"image\":\"1769685509672.jpg\",\"role\":\"super-admin\",\"last_login\":\"2026-08-31T07:19:08.000Z\",\"project_id\":null,\"create_at\":\"2024-12-04T06:53:31.000Z\",\"user_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc4ODE2NDg5NCwiZXhwIjoxNzg4NzY5Njk0fQ.cNOIxJw_LXjvVkjabDuCtUxEhLwQVygFyNR8aA7c9AA\",\"is_delete\":0,\"role_id\":1,\"project\":[]}}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 14:04:44.547 (IST)
+Method     : POST
+URL        : /booking/add
+Request    : {
+  "project_id": 38,
+  "sector_id": 23,
+  "plot_id": 877,
+  "customers": [
+    {
+      "customer_name": "मोहि kuam  ",
+      "CustomerFatherName": "संजीव कुम  ",
+      "CustomerAge": 29,
+      "prefix": "S/O",
+      "CustomerAddress": "बीकानेर ",
+      "mobile_no": 9236876837,
+      "aadhaar_number": "2397 6793 6793",
+      "pan_number": "7368273682",
+      "custom_field": "दोने ",
+      "type": 1
+    }
+  ],
+  "square_feet_size": 287289,
+  "mobile_no": 9236876837,
+  "square_feet_rate": 2400,
+  "plc_drc": null,
+  "booking_amount": null,
+  "amount_a": 689493600,
+  "amount_b": null,
+  "amount_c": null,
+  "payment_mode": 5,
+  "broker_number": 9416590657,
+  "agreement_date": "",
+  "register_date": "",
+  "booking_date": "2026-08-31",
+  "krutiDev_font": 2,
+  "check_date": "",
+  "towords": "",
+  "broker_name": "",
+  "broker_id": 136,
+  "commission_type": "percentage",
+  "commission_value": "",
+  "created_by_id": 1
+}
+Response   : "{\"success\":true,\"message\":\"Booking(s) added successfully\"}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 14:05:00.936 (IST)
+Method     : PUT
+URL        : /booking
+Request    : {
+  "booking_ids": [
+    517
+  ],
+  "sector_id": 23,
+  "plot_id": 878,
+  "square_feet_size": 287289,
+  "square_feet_rate": 2400,
+  "plc_drc": null,
+  "booking_amount": 0,
+  "amount_a": 689493600,
+  "amount_b": null,
+  "payment_mode": 5,
+  "broker_number": 9416590657,
+  "towords": "",
+  "time_of_payment": null,
+  "additional_comment": null,
+  "refrens": null,
+  "agreement_date": null,
+  "register_date": null,
+  "booking_date": "2026-08-31",
+  "krutiDev_font": 2,
+  "customers": [
+    {
+      "name": "मोहि kuam  ",
+      "fatherName": "संजीव कुम  ",
+      "prefix": "S/O",
+      "age": 29,
+      "address": "बीकानेर ",
+      "number": "9236876837",
+      "id": 517,
+      "custom_field": "दोने ",
+      "type": 1,
+      "adhar_number": "2397 6793 6793",
+      "pan_number": "7368273682",
+      "CustomerFatherName": "S/O संजीव कुम"
+    }
+  ],
+  "delete_booking_ids": [],
+  "check_no": null,
+  "branch_name": null,
+  "bank_name": null,
+  "check_date": null,
+  "project_id": 38,
+  "broker_id": 136,
+  "broker_name": null,
+  "commission_type": "percentage",
+  "commission_value": 0,
+  "mobile_no": 9236876837,
+  "updated_by_id": 1
+}
+Response   : "{\"success\":true,\"message\":\"✅ Booking updated successfully\"}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 14:06:30.361 (IST)
+Method     : POST
+URL        : /booking/add
+Request    : {
+  "project_id": 38,
+  "sector_id": 23,
+  "plot_id": 880,
+  "customers": [
+    {
+      "customer_name": "कारन स ",
+      "CustomerFatherName": "संजन ः ",
+      "CustomerAge": 29,
+      "prefix": "S/O",
+      "CustomerAddress": "बिकने सतंअगेर ",
+      "mobile_no": 9736172369,
+      "aadhaar_number": "9327 6783 6378",
+      "pan_number": "9763796397",
+      "custom_field": null,
+      "type": 1
+    }
+  ],
+  "square_feet_size": 529,
+  "mobile_no": 9736172369,
+  "square_feet_rate": 240,
+  "plc_drc": null,
+  "booking_amount": null,
+  "amount_a": 126960,
+  "amount_b": null,
+  "amount_c": null,
+  "payment_mode": 5,
+  "broker_number": 9416590657,
+  "agreement_date": "",
+  "register_date": "",
+  "booking_date": "2026-08-31",
+  "krutiDev_font": 2,
+  "check_date": "",
+  "towords": "",
+  "broker_name": "",
+  "broker_id": 136,
+  "commission_type": "percentage",
+  "commission_value": "",
+  "created_by_id": 1
+}
+Response   : "{\"success\":true,\"message\":\"Booking(s) added successfully\"}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 14:08:28.458 (IST)
+Method     : PUT
+URL        : /booking
+Request    : {
+  "booking_ids": [
+    518
+  ],
+  "sector_id": 23,
+  "plot_id": 881,
+  "square_feet_size": 529,
+  "square_feet_rate": 2400,
+  "plc_drc": null,
+  "booking_amount": 0,
+  "amount_a": 1269600,
+  "amount_b": null,
+  "payment_mode": 5,
+  "broker_number": 9416590657,
+  "towords": "",
+  "time_of_payment": null,
+  "additional_comment": null,
+  "refrens": null,
+  "agreement_date": null,
+  "register_date": null,
+  "booking_date": "2026-08-31",
+  "krutiDev_font": 2,
+  "customers": [
+    {
+      "name": "कारन स ",
+      "fatherName": "संजन ः ",
+      "prefix": "S/O",
+      "age": 29,
+      "address": "बिकने सतंअगेर ",
+      "number": "9736172369",
+      "id": 518,
+      "custom_field": null,
+      "type": 1,
+      "adhar_number": "9327 6783 6378",
+      "pan_number": "9763796397",
+      "CustomerFatherName": "S/O संजन ः"
+    }
+  ],
+  "delete_booking_ids": [],
+  "check_no": null,
+  "branch_name": null,
+  "bank_name": null,
+  "check_date": null,
+  "project_id": 38,
+  "broker_id": 136,
+  "broker_name": null,
+  "commission_type": "percentage",
+  "commission_value": 0,
+  "mobile_no": 9736172369,
+  "updated_by_id": 1
+}
+Response   : "{\"success\":true,\"message\":\"✅ Booking updated successfully\"}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 15:11:16.215 (IST)
+Method     : POST
+URL        : /users/login
+Request    : {
+  "email": "admin@itechs.co.in",
+  "password": "123456"
+}
+Response   : "{\"success\":true,\"user\":{\"user_id\":1,\"name\":\"admin\",\"email\":\"admin@itechs.co.in\",\"password_b\":\"fcea920f7412b5da7be0cf42b8c93759\",\"mobile_no\":\"0000000000\",\"image\":\"1769685509672.jpg\",\"role\":\"super-admin\",\"last_login\":\"2026-08-31T08:28:14.000Z\",\"project_id\":null,\"create_at\":\"2024-12-04T06:53:31.000Z\",\"user_token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc4ODE2OTI3NiwiZXhwIjoxNzg4Nzc0MDc2fQ.xrcvLCSjozrVO76gWMjn9Tx1TyCOm4KsKPUhMJD3vKM\",\"is_delete\":0,\"role_id\":1,\"project\":[]}}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 15:12:15.975 (IST)
+Method     : POST
+URL        : /booking/add
+Request    : {
+  "project_id": 38,
+  "sector_id": 23,
+  "plot_id": 877,
+  "customers": [
+    {
+      "customer_name": "बीकानेर ",
+      "CustomerFatherName": "संजीव  कुमार ",
+      "CustomerAge": 29,
+      "prefix": "S/O",
+      "CustomerAddress": "बिकाबयूयू ",
+      "mobile_no": 9283738739,
+      "aadhaar_number": "3293 7793 7939",
+      "pan_number": "9372Y33793",
+      "custom_field": null,
+      "type": 1
+    }
+  ],
+  "square_feet_size": 287289,
+  "mobile_no": 9283738739,
+  "square_feet_rate": 2400,
+  "plc_drc": null,
+  "booking_amount": null,
+  "amount_a": 689493600,
+  "amount_b": null,
+  "amount_c": null,
+  "payment_mode": 5,
+  "broker_number": 9416590657,
+  "agreement_date": "",
+  "register_date": "",
+  "booking_date": "2026-08-31",
+  "krutiDev_font": 2,
+  "check_date": "",
+  "towords": "",
+  "broker_name": "",
+  "broker_id": 136,
+  "commission_type": "percentage",
+  "commission_value": "",
+  "created_by_id": 1
+}
+Response   : "{\"success\":true,\"message\":\"Booking(s) added successfully\"}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 15:13:02.970 (IST)
+Method     : PUT
+URL        : /booking
+Request    : {
+  "booking_ids": [
+    472
+  ],
+  "sector_id": 13,
+  "plot_id": 563,
+  "square_feet_size": 1000,
+  "square_feet_rate": 1300,
+  "plc_drc": null,
+  "booking_amount": 90000,
+  "amount_a": 1300000,
+  "amount_b": null,
+  "payment_mode": 1,
+  "broker_number": 9001997459,
+  "towords": "",
+  "time_of_payment": null,
+  "additional_comment": null,
+  "refrens": null,
+  "agreement_date": null,
+  "register_date": null,
+  "booking_date": "2026-08-05",
+  "krutiDev_font": 0,
+  "customers": [
+    {
+      "name": "PRIYANKA KANWARr",
+      "fatherName": "GAJENDRA SINGH",
+      "prefix": "W/O",
+      "age": 27,
+      "address": "WARD NO 10 SURJANSAR HANUMANGARH 335523",
+      "number": "123456789",
+      "id": 472,
+      "custom_field": null,
+      "type": 1,
+      "adhar_number": "7267 6850 7439",
+      "pan_number": "GWWPK8084G",
+      "CustomerFatherName": "W/O GAJENDRA SINGH"
+    }
+  ],
+  "delete_booking_ids": [],
+  "check_no": null,
+  "branch_name": null,
+  "bank_name": null,
+  "check_date": null,
+  "project_id": 13,
+  "broker_id": null,
+  "broker_name": "NATHSA TAAK",
+  "commission_type": "fixed",
+  "commission_value": 0,
+  "mobile_no": 123456789,
+  "updated_by_id": 1
+}
+Response   : "{\"success\":true,\"message\":\"✅ Booking updated successfully\"}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 15:23:24.857 (IST)
+Method     : POST
+URL        : /booking/add
+Request    : {
+  "project_id": 38,
+  "sector_id": 23,
+  "plot_id": 880,
+  "customers": [
+    {
+      "customer_name": "राम कुमार ",
+      "CustomerFatherName": "संतोसदेवी ",
+      "CustomerAge": 29,
+      "prefix": "S/O",
+      "CustomerAddress": "बीकानर समता नगर ",
+      "mobile_no": 9237387339,
+      "aadhaar_number": "3983 8388 3838",
+      "pan_number": "9393993939",
+      "custom_field": null,
+      "type": 1
+    }
+  ],
+  "square_feet_size": 529,
+  "mobile_no": 9237387339,
+  "square_feet_rate": 240,
+  "plc_drc": null,
+  "booking_amount": null,
+  "amount_a": 126960,
+  "amount_b": null,
+  "amount_c": null,
+  "payment_mode": 5,
+  "broker_number": 9416590657,
+  "agreement_date": "",
+  "register_date": "",
+  "booking_date": "2026-08-31",
+  "krutiDev_font": 2,
+  "check_date": "",
+  "towords": "",
+  "broker_name": "",
+  "broker_id": 136,
+  "commission_type": "percentage",
+  "commission_value": "",
+  "created_by_id": 1
+}
+Response   : "{\"success\":true,\"message\":\"Booking(s) added successfully\"}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 15:23:43.361 (IST)
+Method     : PUT
+URL        : /booking
+Request    : {
+  "booking_ids": [
+    461
+  ],
+  "sector_id": 13,
+  "plot_id": 889,
+  "square_feet_size": 595,
+  "square_feet_rate": 1300,
+  "plc_drc": null,
+  "booking_amount": 100000,
+  "amount_a": 773500,
+  "amount_b": null,
+  "payment_mode": 8,
+  "broker_number": 9001997459,
+  "towords": "",
+  "time_of_payment": null,
+  "additional_comment": null,
+  "refrens": null,
+  "agreement_date": null,
+  "register_date": null,
+  "booking_date": "2026-07-29",
+  "krutiDev_font": 0,
+  "customers": [
+    {
+      "name": "VAISHNAVIss",
+      "fatherName": "NATHSA TAK",
+      "prefix": "D/O",
+      "age": 15,
+      "address": "AMARSAR KUE KE PASS SADULCOLONY, BIKANER",
+      "number": "123456789",
+      "id": 461,
+      "custom_field": null,
+      "type": 1,
+      "adhar_number": "4346 4962 5817",
+      "pan_number": "",
+      "CustomerFatherName": "D/O NATHSA TAK"
+    }
+  ],
+  "delete_booking_ids": [],
+  "check_no": "273309",
+  "branch_name": "K E M ROAD",
+  "bank_name": "INDIAN BANK",
+  "check_date": "2026-07-29",
+  "project_id": 13,
+  "broker_id": 229,
+  "broker_name": "NATHSA TAAK",
+  "commission_type": "fixed",
+  "commission_value": 0,
+  "mobile_no": 123456789,
+  "updated_by_id": 1
+}
+Response   : "{\"success\":true,\"message\":\"✅ Booking updated successfully\"}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 15:24:12.521 (IST)
+Method     : PUT
+URL        : /booking
+Request    : {
+  "booking_ids": [
+    462
+  ],
+  "sector_id": 13,
+  "plot_id": 773,
+  "square_feet_size": 1443.75,
+  "square_feet_rate": 1300,
+  "plc_drc": null,
+  "booking_amount": 500000,
+  "amount_a": 1876875,
+  "amount_b": 0,
+  "payment_mode": 6,
+  "broker_number": 9001997459,
+  "towords": "",
+  "time_of_payment": null,
+  "additional_comment": null,
+  "refrens": null,
+  "agreement_date": null,
+  "register_date": null,
+  "booking_date": "2026-07-29",
+  "krutiDev_font": 0,
+  "customers": [
+    {
+      "name": "CHAND KANWARee",
+      "fatherName": "RATAN SINGH SANKHLA",
+      "prefix": "W/O",
+      "age": 56,
+      "address": "1091/59, RAGHAVENDRA NILLAYA, 8TH MAIN, 5TH CROROSS, VIJAYNAGAR,BANGALORE NORTH 560079",
+      "number": "123456789",
+      "id": 462,
+      "custom_field": null,
+      "type": 1,
+      "adhar_number": "7502 4439 5995",
+      "pan_number": "ADIPK8054B",
+      "CustomerFatherName": "W/O RATAN SINGH SANKHLA"
+    }
+  ],
+  "delete_booking_ids": [],
+  "check_no": null,
+  "branch_name": null,
+  "bank_name": null,
+  "check_date": "2026-07-29",
+  "project_id": 13,
+  "broker_id": 230,
+  "broker_name": "NATHSA TAAK",
+  "commission_type": "fixed",
+  "commission_value": 0,
+  "mobile_no": 123456789,
+  "updated_by_id": 1
+}
+Response   : "{\"success\":true,\"message\":\"✅ Booking updated successfully\"}"
+==========================================
+
+================= API LOG =================
+Time       : 31/08/2026 16:31:07.291 (IST)
+Method     : PUT
+URL        : /booking
+Request    : {
+  "booking_ids": [
+    520
+  ],
+  "sector_id": 23,
+  "plot_id": 880,
+  "square_feet_size": 529,
+  "square_feet_rate": 240,
+  "plc_drc": null,
+  "booking_amount": 0,
+  "amount_a": 126960,
+  "amount_b": null,
+  "payment_mode": 5,
+  "broker_number": 9416590657,
+  "towords": "",
+  "time_of_payment": null,
+  "additional_comment": null,
+  "refrens": null,
+  "agreement_date": null,
+  "register_date": null,
+  "booking_date": "2026-08-31",
+  "krutiDev_font": 2,
+  "customers": [
+    {
+      "name": "राम कुमार ",
+      "fatherName": "संतोसदेवी ",
+      "prefix": "S/O",
+      "age": 29,
+      "address": "बीकानर समता नगर ",
+      "number": "9237387339",
+      "id": 520,
+      "custom_field": null,
+      "type": 1,
+      "adhar_number": "3983 8388 3838",
+      "pan_number": "9393993939",
+      "CustomerFatherName": "S/O संतोसदेवी"
+    },
+    {
+      "name": "किरण कुमाई ",
+      "fatherName": "हडबेवभवहे ",
+      "prefix": "S/O",
+      "age": "234",
+      "number": "9236379369",
+      "address": "बिकाभड़ब ",
+      "custom_field": "",
+      "type": 1,
+      "id": null,
+      "adhar_number": "8273 0837 0373",
+      "pan_number": "8987873892",
+      "CustomerFatherName": "S/O हडबेवभवहे"
+    }
+  ],
+  "delete_booking_ids": [],
+  "check_no": null,
+  "branch_name": null,
+  "bank_name": null,
+  "check_date": null,
+  "project_id": 38,
+  "broker_id": 136,
+  "broker_name": null,
+  "commission_type": "percentage",
+  "commission_value": 0,
+  "mobile_no": 9237387339,
+  "updated_by_id": 1
+}
+Response   : "{\"success\":true,\"message\":\"✅ Booking updated successfully\"}"
+==========================================
