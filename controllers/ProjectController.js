@@ -4,13 +4,13 @@ const path = require('path');
 
 
 const storage = multer.diskStorage({
-    destination: (req, file, cb) => {
-        cb(null, 'uploads/');
-    },
-    filename: (req, file, cb) => {
-        cb(null, Date.now() + path.extname(file.originalname));
+  destination: (req, file, cb) => {
+    cb(null, 'uploads/');
+  },
+  filename: (req, file, cb) => {
+    cb(null, Date.now() + path.extname(file.originalname));
 
-    }
+  }
 });
 
 
@@ -511,12 +511,12 @@ exports.projects = async (req, res) => {
       LEFT JOIN sector s ON p.project_id = s.project_id AND s.is_delete = 0
       LEFT JOIN brokers br ON p.broker_id = br.broker_id AND br.deleted_at IS NULL
       ${apJoin}
-      WHERE p.is_delete = 0
+      WHERE p.is_delete = 0 AND p.project_id != 38
     `;
 
     if (type == 1) query += ` AND p.type = 1 `;
     else if (type == 2) query += ` AND p.type = 2 `;
-    else query += ` AND p.type IN (1,2) `;
+    // Removed the default IN (1,2) filter to return all non-deleted projects
 
     if (project_id) {
       query += ` AND p.project_id = ? `;
@@ -525,10 +525,7 @@ exports.projects = async (req, res) => {
 
     query += ` GROUP BY p.project_id, s.sector_id, br.broker_id ORDER BY p.create_at DESC `;
 
-    if (hasPagination) {
-      query += ` LIMIT ? OFFSET ? `;
-      params.push(perPage, offset);
-    }
+    // Removed LIMIT so all projects are returned without pagination
 
     const result = await db.fetchQuery(query, params);
     const projectMap = new Map();
@@ -605,8 +602,8 @@ exports.projectupdate = async (req, res) => {
 
     const companyLogo =
       req.files &&
-      req.files.company_logo &&
-      req.files.company_logo[0]
+        req.files.company_logo &&
+        req.files.company_logo[0]
         ? req.files.company_logo[0].filename
         : null;
 
@@ -615,17 +612,17 @@ exports.projectupdate = async (req, res) => {
 
     // ✅ Helper for safe SQL binding
     const safe = (v) => {
-  if (
-    v === undefined ||
-    v === null ||
-    v === "" ||
-    v === "null" ||
-    v === "undefined"
-  ) {
-    return null;
-  }
-  return v;
-};
+      if (
+        v === undefined ||
+        v === null ||
+        v === "" ||
+        v === "null" ||
+        v === "undefined"
+      ) {
+        return null;
+      }
+      return v;
+    };
 
     // ✅ Basic Validation
     if (!ProjectId)
@@ -729,50 +726,50 @@ exports.projectupdate = async (req, res) => {
 
       const projectParams = ProjectImage
         ? [
-            safe(finalBrokerId),
-            safe(commission_type),
-            safe(commission_value),
-            safe(ProjectName),
-            safe(ProjectImage),               // image
-            safe(companyLogo),                // COALESCE(?, company_logo)
-            safe(address),
-            safe(Square_Price),
-            safe(DLC_Price),
-            safe(rera_reg_no),
-            safe(rera_reg_date),
-            safe(khasra_no),
-            safe(krutiDev_font || 0),
-            safe(company_name),
-            safe(company_address),
-            safe(cin_number),
-            safe(phone_number),
-            safe(gst_pan_type),
-            safe(gst_pan_number),
-            updateDate,
-            safe(ProjectId),
-          ]
+          safe(finalBrokerId),
+          safe(commission_type),
+          safe(commission_value),
+          safe(ProjectName),
+          safe(ProjectImage),               // image
+          safe(companyLogo),                // COALESCE(?, company_logo)
+          safe(address),
+          safe(Square_Price),
+          safe(DLC_Price),
+          safe(rera_reg_no),
+          safe(rera_reg_date),
+          safe(khasra_no),
+          safe(krutiDev_font || 0),
+          safe(company_name),
+          safe(company_address),
+          safe(cin_number),
+          safe(phone_number),
+          safe(gst_pan_type),
+          safe(gst_pan_number),
+          updateDate,
+          safe(ProjectId),
+        ]
         : [
-            safe(finalBrokerId),
-            safe(commission_type),
-            safe(commission_value),
-            safe(ProjectName),
-            safe(companyLogo),                // COALESCE(?, company_logo)
-            safe(address),
-            safe(Square_Price),
-            safe(DLC_Price),
-            safe(rera_reg_no),
-            safe(rera_reg_date),
-            safe(khasra_no),
-            safe(krutiDev_font || 0),
-            safe(company_name),
-            safe(company_address),
-            safe(cin_number),
-            safe(phone_number),
-            safe(gst_pan_type),
-            safe(gst_pan_number),
-            updateDate,
-            safe(ProjectId),
-          ];
+          safe(finalBrokerId),
+          safe(commission_type),
+          safe(commission_value),
+          safe(ProjectName),
+          safe(companyLogo),                // COALESCE(?, company_logo)
+          safe(address),
+          safe(Square_Price),
+          safe(DLC_Price),
+          safe(rera_reg_no),
+          safe(rera_reg_date),
+          safe(khasra_no),
+          safe(krutiDev_font || 0),
+          safe(company_name),
+          safe(company_address),
+          safe(cin_number),
+          safe(phone_number),
+          safe(gst_pan_type),
+          safe(gst_pan_number),
+          updateDate,
+          safe(ProjectId),
+        ];
 
       // ✅ Execute Project Update
       await db.insertQuery(projectQuery, projectParams);
@@ -823,21 +820,21 @@ exports.projectupdate = async (req, res) => {
 
 
 exports.projectdelete = async (req, res) => {
-    const { ProjectId } = req.body;
-    const is_delete = 1;
-    if (!ProjectId) {
-        res.json({ success: false, message: 'Project id required ..!' })
-    }
-    const checkProject = `SELECT * FROM projects WHERE project_id = ? AND is_delete = 0`;
-    const checkprojectParems = [ProjectId];
-    const checkProjectResult = await db.fetchQuery(checkProject, checkprojectParems)
-    if (checkProjectResult.length === 0) {
-        return res.json({ success: false, message: 'Project not found!' });
-    }
-    const qurey = `UPDATE projects SET is_delete = ? WHERE project_id = ?`;
-    const parems = [is_delete, ProjectId]
-    const result = await db.insertQuery(qurey, parems)
-    res.json({ success: true, message: 'Project delete successfully' })
+  const { ProjectId } = req.body;
+  const is_delete = 1;
+  if (!ProjectId) {
+    res.json({ success: false, message: 'Project id required ..!' })
+  }
+  const checkProject = `SELECT * FROM projects WHERE project_id = ? AND is_delete = 0`;
+  const checkprojectParems = [ProjectId];
+  const checkProjectResult = await db.fetchQuery(checkProject, checkprojectParems)
+  if (checkProjectResult.length === 0) {
+    return res.json({ success: false, message: 'Project not found!' });
+  }
+  const qurey = `UPDATE projects SET is_delete = ? WHERE project_id = ?`;
+  const parems = [is_delete, ProjectId]
+  const result = await db.insertQuery(qurey, parems)
+  res.json({ success: true, message: 'Project delete successfully' })
 
 }
 

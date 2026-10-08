@@ -27,8 +27,10 @@ const verifyToken = async (req, res, next) => {
     const result = await fetchQuery(query, [userId, token]);
 
     if (result.length === 0) {
-      return res.status(401).json({ code: "TOKEN_EXPIRED",
-        message: "Token expired"});
+      return res.status(401).json({
+        code: "TOKEN_EXPIRED",
+        message: "Token expired"
+      });
     }
 
     // user info attach
